@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="29785" started-at="2021-07-20T14:03:09 ART" finished-at="2021-07-20T14:03:38 ART">
+    <groups>
+    </groups>
+    <test name="&#039;multiple Classes" duration-ms="29785" started-at="2021-07-20T14:03:09 ART" finished-at="2021-07-20T14:03:38 ART">
+      <class name="prueba.RobotApi">
+        <test-method status="PASS" signature="RobotApiTest()[pri:0, instance:prueba.RobotApi@1f36e637]" name="RobotApiTest" duration-ms="12710" started-at="2021-07-20T14:03:25 ART" finished-at="2021-07-20T14:03:37 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RobotApiTest -->
+      </class> <!-- prueba.RobotApi -->
+      <class name="prueba.LogTest">
+        <test-method status="PASS" signature="initialComponent()[pri:0, instance:prueba.LogTest@610694f1]" name="initialComponent" is-config="true" duration-ms="8" started-at="2021-07-20T14:03:15 ART" finished-at="2021-07-20T14:03:15 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialComponent -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:prueba.LogTest@610694f1]" name="launchBrowser" duration-ms="8188" started-at="2021-07-20T14:03:15 ART" finished-at="2021-07-20T14:03:23 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="BMICalculators()[pri:0, instance:prueba.LogTest@610694f1]" name="BMICalculators" duration-ms="532" started-at="2021-07-20T14:03:23 ART" depends-on-methods="prueba.LogTest.launchBrowser" finished-at="2021-07-20T14:03:24 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMICalculators -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:prueba.LogTest@610694f1]" name="testDown" duration-ms="889" started-at="2021-07-20T14:03:24 ART" depends-on-methods="prueba.LogTest.BMICalculators" finished-at="2021-07-20T14:03:25 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- prueba.LogTest -->
+      <class name="tests.login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.login@578486a3]" name="setUp" is-config="true" duration-ms="6255" started-at="2021-07-20T14:03:09 ART" finished-at="2021-07-20T14:03:15 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openLogin()[pri:1, instance:tests.login@578486a3]" name="openLogin" duration-ms="116" started-at="2021-07-20T14:03:37 ART" finished-at="2021-07-20T14:03:37 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLogin -->
+        <test-method status="PASS" signature="login()[pri:2, instance:tests.login@578486a3]" name="login" duration-ms="291" started-at="2021-07-20T14:03:37 ART" finished-at="2021-07-20T14:03:38 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:tests.login@578486a3]" name="testDown" is-config="true" duration-ms="723" started-at="2021-07-20T14:03:38 ART" finished-at="2021-07-20T14:03:38 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- tests.login -->
+    </test> <!-- 'multiple Classes -->
+  </suite> <!-- TestSuite -->
+</testng-results>
